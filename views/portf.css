@@ -1,0 +1,260 @@
+
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    line-height: 1.6;*/
+/*}*/
+/*header {*/
+/*    background: #333;*/
+/*    color: #fff;*/
+/*    padding: 20px 0;*/
+/*    text-align: center;*/
+/*}*/
+/*nav {*/
+/*    margin: 20px 0;*/
+/*}*/
+/*nav a {*/
+/*    color: #fff;*/
+/*    margin: 0 15px;*/
+/*    text-decoration: none;*/
+/*}*/
+/*section {*/
+/*    padding: 20px;*/
+/*}*/
+/*footer {*/
+/*    text-align: center;*/
+/*    padding: 10px 0;*/
+/*    background: #333;*/
+/*    color: #fff;*/
+/*    position: relative;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*}*/
+
+/*body {*/
+/*    font-family: 'Arial', sans-serif;*/
+/*    line-height: 1.6;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background-color: #f4f4f4;*/
+/*    color: #333;*/
+/*}*/
+/*header {*/
+/*    background: linear-gradient(120deg, #2980b9, #6dd5ed);*/
+/*    color: white;*/
+/*    padding: 40px 0;*/
+/*    text-align: center;*/
+/*}*/
+/*nav {*/
+/*    margin: 20px 0;*/
+/*}*/
+
+/*nav a {*/
+/*    color: white;*/
+/*    margin: 0 15px;*/
+/*    text-decoration: none;*/
+/*    font-weight: bold;*/
+/*    transition: color 0.3s;*/
+/*}*/
+/*nav a:hover {*/
+/*    color: #ffcc00;*/
+/*}*/
+
+/*section {*/
+/*    background: white;*/
+/*    margin: 20px auto;*/
+/*    padding: 30px;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);*/
+/*    max-width: 800px;*/
+/*}*/
+/*h2 {*/
+/*    color: #2980b9;*/
+/*}*/
+
+/*footer {*/
+/*    text-align: center;*/
+/*    padding: 20px 0;*/
+/*    background: #2c3e50;*/
+/*    color: white;*/
+/*    position: relative;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*}*/
+/*ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*}*/
+
+/*ul li {*/
+/*    margin: 15px 0;*/
+/*}*/
+
+/*h3 {*/
+/*    color: #e74c3c;*/
+/*}*/
+/*body{*/
+/*font-family: Arial, sans-serif;*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*line-height: 1.6;*/
+/*transition: background-color 0.3s, color 0.3s;*/
+/*}*/
+
+/*header {*/
+/*    background: #2980b9;*/
+/*    color: white;*/
+/*    padding: 20px;*/
+/*    text-align: center;*/
+/*}*/
+/*header .logo {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*header .logo img {*/
+/*    width: 50px; !* Pas aan op basis van de grootte van je logo *!*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*nav ul {*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*}*/
+/*nav ul li {*/
+/*    display: inline;*/
+/*    margin: 0 15px;*/
+/*}*/
+
+/*nav a {*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.theme-toggle {*/
+/*    display: inline-block;*/
+/*    margin-left: 20px;*/
+/*}*/
+/*section {*/
+/*    padding: 20px;*/
+/*    margin: 20px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*#intro {*/
+/*    background: #ecf0f1;*/
+/*    text-align: center;*/
+/*}*/
+/*.btn {*/
+/*    display: inline-block;*/
+/*    margin-top: 15px;*/
+/*    padding: 10px 20px;*/
+/*    background: #2980b9;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    border-radius: 5px;*/
+/*}*/
+/* Footer */
+/*footer {*/
+/*    background: #bdc3c7;*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*    position: relative;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*}*/
+/*!* Dark Mode *!*/
+/*body.dark-mode {*/
+/*    background-color: #2c3e50;*/
+/*    color: #ecf0f1;*/
+/*}*/
+
+/*header.dark-mode {*/
+/*    background: #34495e;*/
+/*}*/
+/*section.dark-mode {*/
+/*    background: #2c3e50;*/
+/*    color: #ecf0f1;*/
+/*}*/
+
+/*footer.dark-mode {*/
+/*    background: #34495e;*/
+/*}*/
+/*ik heb de grid generator gebruikt met fr fr fr. de areas met 1/2/3/4/5 dit heb ik nu zo maar
+ik besef me dat het minder grip om mijn site heeft. volgende keer ga ik header header header gebruiken
+ */
+
+/*hier bepaal ik mijn grid*/
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+aside{ grid-area: 1 / 1 / 3 / 3; }
+.mijnnaam { grid-area: 2 / 4 / 3 / 6; }
+.lijst { grid-area: 3 / 4 / 5 / 5; }
+footer { grid-area: 6/ 4/ 6 / 5; }
+/*foto*/
+img {
+    height: 100vh;
+    width: 600px;
+   margin-bottom: -3px;
+}
+
+/*font instellingen*/
+.mijnnaam{ display: inline-block;
+    margin-top: 5px;
+    padding: 3px 7px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+nav ul{ display:flex;
+        list-style: none;
+        flex-direction: column;
+    gap: 40px;
+
+}
+
+ul a{text-decoration: none;
+    padding: 7px;
+    border-style: solid;
+    border-radius:10px;
+    color: white;
+
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+ul a:hover{
+    background-color: cadetblue;
+}
+
+body{
+    margin:0;
+    background-image: linear-gradient(midnightblue, royalblue, powderblue);
+}
+
+footer{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: normal;
+}
