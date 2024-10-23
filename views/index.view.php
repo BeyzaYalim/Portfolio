@@ -1,44 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mijn Portfolio</title>
-    <link rel="stylesheet" href="portf.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<?php require "layout/header.php"; ?>
 
-</head>
 
-<body>
-<main>
-<aside class="sidebarleft">
-    <div style="text-align: center">
-        <img src="../sunrise.jpg" height="200"width="200"
-             border="2" alt="zon">
-    </div>
 
-</aside>
-
-    <div class="mijnnaam">
-        <h1>Beyza Yalim</h1>
-    </div>
-    <div class="lijst">
-<nav>
-
-    <ul>
-           <li> <a href="portfolio"> portfolio</a></li>
-           <li><a href="project"> project</a></li>
-            <li><a href="about me"> about me</a></li>
-            <li><a href="contact">contact</a></li>
-    </ul>
-
-</nav>
-    </div>
-    <footer>
-        <p>LinkedIn Mail</p>
-    </footer>
+<?php require "layout/footer.php"; ?>
 
 </main>
 
